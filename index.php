@@ -86,4 +86,6 @@ $color3 = new ColorRGB(0, 0, 255);
 
 $mixedColor = ColorRGB::mix($color1, $color2, $color3);
 
+dd($_SERVER);
+
 echo 'Смешанный цвет: ' . $mixedColor->getHex() . "\n";
